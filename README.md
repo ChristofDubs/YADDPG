@@ -8,7 +8,7 @@ This repo runs DDPG implemented with tensorflow on the [swing up pendulum contro
 
 The torques available to the agent aren't sufficient to just brute force the pendulum into place so instead it needs to learn to "swing it up" then balance the pendulum once it's in place. This implementation manages to do just that after about 30-40 training episodes:
 
-#### Starting out
+#### Starting out:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/2457362/36352304-29b762e6-14fa-11e8-92d5-047e8ee0e2e9.gif" alt="Episode 125"/>
