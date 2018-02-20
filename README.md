@@ -4,7 +4,7 @@ YADDPG is yet another implementation of Deep Deterministic Policy Gradients (DDP
 
 This repo runs DDPG implemented with tensorflow on the [swing up pendulum control problem from the openAI gym](https://gym.openai.com/envs/Pendulum-v0/). This is a classic control problem in which the agent must apply torques to the base of a pendulum to balance it on its end. 
 
-## Results:
+## Results
 
 The torques available to the agent aren't sufficient to just brute force the pendulum into place so instead it needs to learn to "swing it up" then balance the pendulum once it's in place. This implementation manages to do just that after about 30-40 training episodes:
 
