@@ -1,6 +1,6 @@
 # YADDPG
 
-YADDPG is yet another implementation of Deep Deterministic Policy Gradients (DDPG) described in this paper from Deepmind: [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). DDPG is similar to Deep Q-Networks except that it allows an agent to learn a policy rather than just a Q function which allows it to operate in continous environments.
+YADDPG is yet another implementation of Deep Deterministic Policy Gradients (DDPG) described in this paper from Deepmind: [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). DDPG is similar to Deep Q-Networks except that it allows an agent to learn a policy rather than just a Q-function which makes it easier to apply environments with continuous action spaces.
 
 This repo runs DDPG implemented with tensorflow on the [swing up pendulum control problem from the openAI gym](https://gym.openai.com/envs/Pendulum-v0/). This is a classic control problem in which the agent must apply torques to the base of a pendulum to balance it on its end. 
 
